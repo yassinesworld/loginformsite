@@ -1,0 +1,55 @@
+.main {
+    background-color: rgba(150, 150, 150, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+
+.label {
+    font-size: 20px;
+}
+
+* {
+    font-family: "Rubik",sans-serif;
+}
+
+.submit {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+#show {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, 20%);
+    align-self: center;
+}
+
+.header, #user, #pass {
+    text-align: center;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    height: 100%;
+    background-image: url(waves.gif);
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+}
